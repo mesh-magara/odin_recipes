@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(3, 3, 55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.main-container {
+  background-color: rgba(3, 3, 75, 0.4);
+  padding: 4rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  color: white;
+}
+#recipe-title {
+  text-align: center;
+}
+.recipes {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.recipe {
+  border: 1px solid navy;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 14px;
+}
+.recipe.odd {
+  background-color: rgba(3, 3, 75, 0.4);
+}
+.recipe a {
+  text-decoration-line: none;
+}
+.one {
+  color: #f72585;
+  font-weight: bold;
+}
+
+.recipe.even {
+  background-color: white;
+}
+.two {
+  color: black;
+  font-weight: bold;
+}
+.recipe:hover {
+  transform: translateY(-5px);
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}

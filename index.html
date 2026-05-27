@@ -3,13 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Recipe homepage</title>
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-
-    <p><a href="./recipes/egg_toast.html">Egg toast recipe</a></p>
-    <p><a href="./recipes/potato_salad.html">Potato Salad</a></p>
-    <p><a href="./recipes/pizza.html">Pizza food</a></p>
+    <div class="main-container">
+      <h1 id="recipe-title">Odin Recipes</h1>
+      <ul class="recipes">
+        <li class="recipe odd">
+          <a class="one" href="./recipes/egg_toast.html">Egg toast recipe</a>
+        </li>
+        <li class="recipe even">
+          <a class="two" href="./recipes/potato_salad.html">Potato Salad</a>
+        </li>
+        <li class="recipe odd">
+          <a class="one" href="./recipes/pizza.html">Pizza food</a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
